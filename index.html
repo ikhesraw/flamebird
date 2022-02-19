@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/bootstrap-icons.css">
+     <link rel="stylesheet" href="asset/app.css">
+    <title>HomePage</title>
+</head>
+<body class="dark:bg-slate-900 box-border tracking-wide">
+    <div class="bg-cyan-500 text-white text-center text-sm py-1"><a href="#" class="underline hover:text-slate-700 transition">Flame bird 3</a> is out now! take a closer look.</div>
+    <nav class="relative flex flex-col md:flex-row sm:justify-between md:px-10 md:items-center space-y-2 md:space-y-0 py-2 md:sticky top-0 bg-slate-800 shadow-md">
+        <span class="text-2xl cursor-pointer text-white hidden md:block">Flame<small class="text-cyan-500">Bird</small></span>
+        <div class=" md:p-0">
+            <a href="#" class="ml-4">
+                <i class="bi bi-twitter text-white text-lg hover:text-cyan-600 transition duration-300"></i>
+            </a>
+            <a href="#" class="ml-4">
+                <i class="bi bi-discord text-white text-lg hover:text-cyan-600 transition duration-300"></i>
+            </a>
+            <a href="#" class="ml-4">
+                <i class="bi bi-github text-white text-lg hover:text-cyan-600 transition duration-300"></i>
+            </a>
+        </div>
+        <div id="nav-links" class=" md:flex hidden justify-start md:justify-around flex-col md:flex-row mt-2 md:mt-0 text-md font-semibold ">
+            <a href="" class="text-white  hover:bg-slate-700 md:hover:bg-slate-800 md:hover:text-cyan-600 p-3 md:p-0 md:mr-4 border-t md:border-t-0
+            border-slate-500 transition duration-200">Home</a>
+            <a href="" class="text-white hover:bg-slate-700 md:hover:bg-slate-800 md:hover:text-cyan-600 p-3 md:p-0 md:mr-4 border-t md:border-t-0
+            border-slate-500 transition duration-200">Docs</a>
+            <a href="" class="text-white hover:bg-slate-700 md:hover:bg-slate-800 md:hover:text-cyan-600 p-3 md:p-0 md:mr-4 border-t md:border-t-0
+            border-slate-500 transition duration-200">API</a>
+        </div>
+        <button id="toggleBtn" class="md:hidden block absolute top-1 right-3 py-1 px-3 text-white rounded-md bg-slate-700 transition duration-300 hover:bg-slate-900">
+            <i class="bi bi-list text-md"></i>
+        </button>
+    </nav>
+    <!-- hero section -->
+    <div id="hero" class="bg-white min-h-screen p-4 mx-auto flex justify-around items-center space-y-14 md:space-y-0 lg:flex-row flex-col">
+        <div class="flex justify-around items-center md:items-start flex-col space-y-4 text-center md:text-left">
+            <h1 class="text-6xl font-bold">Flame<span class="text-cyan-600">Bird</span> </h1>
+            <!-- <h2 class="text-slate-700">Not just a framework,</h2> -->
+            <p class="text-md text-slate-700 leading-loose">a great framework for taking your skills into another level.<br> <span class="bg-slate-700 text-white rounded text-sm py-1 px-2 font-semibold">FlameBird</span> is designed unopiniated to best <br>match your preferences.</p>
+            <div>
+                <button class="bg-cyan-600 py-2 px-3 text-white hover:bg-cyan-700">Install</button>
+                <button class="bg-slate-700 py-2 px-3 text-white hover:bg-slate-800">Documentation</button>
+            </div>
+        </div>
+        <div>
+            <img class="sm:h-80" src="dist/about1.png" alt="">
+        </div>
+    </div>
+    
+
+    <!-- features section -->
+    <section class="min-h-[100vh] py-10 flex flex-col space-y-16 ">
+            <p class="dark:text-white md:text-lg text-center"><span class="bg-cyan-600 rounded sm:text-md text-sm py-1 px-2 font-bold text-white ">FlameBird</span> is used by more than <span class="text-red-500 font-black">
+                1.2 million
+            </span>Developers worldwide.</p>
+
+            <p class="dark:text-white text-md text-center">With that popularity you expect <span class="bg-cyan-600 rounded sm:text-md text-sm py-1 px-2 font-bold text-white ">FlameBird</span> to offer best in need services.</p>
+        
+            
+        <div class="flex px-10 flex-col sm:flex-row justify-between gap-10">
+            <!-- 1 -->
+            <div class=" leading-loose sm:w-1/2 p-4 flex justify-between text-center items-center flex-col bg-slate-800 rounded-sm space-y-6 text-white border-l-4 border-l-slate-700 hover:border-l-cyan-500 transition">
+                <span class="tracking-widest text-xl font-semibold">Simplicity</span>
+                <p class="text-sm text-gray-400 leading-relaxed">One of the most essential feature of an framework is its easy syntax. which is not offered by many frameworks.</p>
+                <button class="bg-cyan-600 py-1 px-4 text-white hover:bg-cyan-700">Read more</button>
+            </div>
+            <!-- 2 -->
+            <div class="leading-loose sm:w-1/2 p-4 flex justify-between text-center items-center flex-col bg-slate-800 rounded-sm space-y-6 text-white border-l-4 border-x-cyan-500 transition">
+                <span class="tracking-widest text-xl font-semibold">Versatile</span>
+                <p class="text-sm text-gray-400 leading-relaxed">A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.</p>
+                <button class="bg-cyan-600 py-1 px-4 text-white hover:bg-cyan-700">Read more</button>
+            </div>
+            <!-- 3 -->
+            <div class="leading-loose sm:w-1/2 p-4 flex justify-between text-center items-center flex-col bg-slate-800 rounded-sm space-y-6 text-white border-l-4 border-l-slate-700 hover:border-l-cyan-500 transition">
+                <span class="tracking-widest text-xl font-semibold">Approchable</span>
+                <p class="text-sm text-gray-400 leading-relaxed">Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation.</p>
+                <button class="bg-cyan-600 py-1 px-4 text-white hover:bg-cyan-700">Read more</button>
+            </div>
+        </div>
+        <div>
+            
+                <p class="sm:text-md text-sm text-center dark:text-white">
+                    To learn more about <span class="bg-cyan-600 text-white rounded text-sm py-1 px-2 font-semibold">FlameBird</span> visit our <a href="#" class="underline hover:text-cyan-700">Documentation</a> section.
+                </p>
+                
+            
+
+        </div>
+        <hr class="my-10 border-slate-700">
+       
+        <div class="flex flex-col justify-around space-y-6 mt-10 dark:text-white items-center">
+            <p class="text-md">
+                Subscribe to our weekly newsletter.
+            </p>
+            <form class=" sm:w-1/2 w-3/4 max-w-md rounded border border-gray-600 hover:border-cyan-500 p-1 flex justify-between flex-1">
+                <input type="email" class=" p-2 bg-transparent focus:outline-none flex-1 text-white" placeholder="Enter your Email">
+                <button class="bg-cyan-600 px-4 py-2 text-white hover:bg-cyan-700">Sign Up</button>
+
+            </form>
+        </div>
+        
+    </section>
+
+
+
+<footer class="py-6 mt-10 h-[25vh] bg-n relative bg-slate-900">
+    <div class="flex pt-2 md:justify-around md:flex-row flex-col justify-center items-center space-y-5 ">
+        <!-- 1 -->
+        <div>
+        <a href="" class="text-2xl cursor-pointer text-white">Flame<small class="text-cyan-500">Bird</small></a>
+        </div>
+        <!-- 2 -->
+        <div class=" space-x-4 flex justify-between items-center text-cyan-600">
+            <a href="#" class="underline text-md hover:text-cyan-700">Get Started</a>
+            <a href="#" class="underline text-md hover:text-cyan-700">API</a>
+            <a href="#" class="underline text-md hover:text-cyan-700">Documentation</a>
+        </div>
+        <!-- 3 -->
+        <div class=" space-x-4 flex justify-between ">
+            <a href="#">
+                <i class="bi bi-twitter text-slate-600 text-xl hover:text-cyan-600 transition duration-300"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-discord text-slate-600 text-xl hover:text-cyan-600 transition duration-300"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-github text-slate-600 text-xl hover:text-cyan-600 transition duration-300"></i>
+            </a>
+        </div>
+    </div>
+    <!-- <hr class=" border-slate-400"> -->
+
+    <div class="text-center text-slate-500 mt-2 leading-relaxed">
+        <p>Licence Under MIT</p>
+        <p>All rights reserved &copy;</p>
+        <p class="text-sm">Made with <i class="bi bi-heart-fill hover:text-slate-600  text-cyan-600 transition duration-300"></i> by khesraw</p>
+    </div>
+</footer>
+    <script>
+
+        const toggleBtn = document.querySelector('#toggleBtn');
+        const navlinkContainer = document.querySelector('#nav-links')
+
+
+        toggleBtn.addEventListener('click',() => {
+            
+           navlinkContainer.classList.toggle('hidden')
+           navlinkContainer.classList.toggle('flex')
+           
+
+
+
+        })
+    </script>
+</body>
+</html>
